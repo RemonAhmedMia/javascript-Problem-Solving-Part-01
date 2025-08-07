@@ -21,4 +21,3 @@ function maxGift(num1 , num2) {
 }
  const max = maxGift (80 , 79);
  console.log(max); // The Final Output Is 80
- 
