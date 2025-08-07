@@ -28,3 +28,9 @@ function maxThree(name1 , name2, name3) {
 }
 const maxwin = maxThree(90, 70, 80);  //কিন্তু function এর ভিতরে যা কাজ হচ্ছে, সেটা number compare করার logic।
  console.log(maxwin);
+
+
+//  Shortcut:চাইলে এটা আরো ছোট করে লিখতে পারো JavaScript এর Math.max() দিয়ে:
+
+const maxwins = Math.max(90, 70, 80);  //এখানে যতবেশি সংখ্যা দাও না কেনো যেটা বেশি সেটাই দেখাবে
+console.log(maxwins); // Output: 90
